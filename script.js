@@ -1,0 +1,1 @@
+const t='You are my today, tomorrow and forever ❤️';let i=0;setInterval(()=>{if(i<t.length)document.getElementById('typing').textContent+=t[i++]},80);const a=document.getElementById('song');document.getElementById('musicBtn').onclick=()=>a.paused?a.play():a.pause();
